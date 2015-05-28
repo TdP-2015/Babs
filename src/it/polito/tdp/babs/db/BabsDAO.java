@@ -52,6 +52,7 @@ public class BabsDAO {
 		Connection conn = DBConnect.getConnection() ;
 		
 		String sql = "SELECT * FROM station" ;
+		//String sql = "SELECT * FROM station ORDER BY name" ;
 		
 		try {
 			PreparedStatement st = conn.prepareStatement(sql) ;
