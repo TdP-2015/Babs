@@ -30,13 +30,13 @@
                   <Label text="Arrivo" GridPane.rowIndex="1" />
                   <ComboBox fx:id="boxPartenza" prefWidth="200.0" GridPane.columnIndex="1" />
                   <ComboBox fx:id="boxArrivo" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-                  <Button fx:id="doTempoMedio" mnemonicParsing="false" text="Tempo medio" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-                  <Button fx:id="doDettaglio" mnemonicParsing="false" text="Dettaglio" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <Button mnemonicParsing="false" onAction="#doTempoMedio" text="Tempo medio" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <Button mnemonicParsing="false" onAction="#doDettaglio" text="Dettaglio" GridPane.columnIndex="2" GridPane.rowIndex="2" />
                   <Label text="Data" GridPane.rowIndex="2" />
                   <DatePicker fx:id="pickData" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                </children>
             </GridPane>
-            <TextArea editable="false" prefHeight="200.0" prefWidth="200.0" wrapText="true" />
+            <TextArea fx:id="txtResult" editable="false" prefHeight="200.0" prefWidth="200.0" wrapText="true" />
          </children>
          <BorderPane.margin>
             <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
