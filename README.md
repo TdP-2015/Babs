@@ -13,13 +13,13 @@ L’applicazione dovrà svolgere le seguenti funzioni:
 
 1.	Permettere all’utente di selezionare il nome di due “station” da altrettanti menu a tendina (in ordine alfabetico) e visualizzare due numeri: il numero di “trip” tra tali stazioni, ed il tempo medio di percorrenza di tali trip.
 
-  a.	Risolvere l’esercizio utilizzando il campo trip.Duration
+  1. Risolvere l’esercizio utilizzando il campo trip.Duration
 
-  b.	Risolvere l’esercizio ipotizzando di non disporre del campo trip.Duration, e quindi calcolare la differenza tra trip.StartDate e trip.EndDate. Valutare se tale differenza debba essere calcolata a livello SQL oppure a livello Java.
+  1. Risolvere l’esercizio ipotizzando di non disporre del campo trip.Duration, e quindi calcolare la differenza tra trip.StartDate e trip.EndDate. Valutare se tale differenza debba essere calcolata a livello SQL oppure a livello Java.
 
 2.	Permettere all’utente di selezionare, in aggiunta, una data, ed elencare tutti i trip, tra le due stazioni selezionate, che si svolgono in quel giorno.
 
-  a.	Pre-impostare il calendario con la data del primo “trip” valido
+  1.	Pre-impostare il calendario con la data del primo “trip” valido
 
-  b.	Fare in modo che, se l’utente cerca di inserire una data esterna all’intervallo di date per il quale esistono dei “trip” validi, il calendario venga riportato comunque al valore estremo (il primo o l’ultimo giorno utile)
+  1.	Fare in modo che, se l’utente cerca di inserire una data esterna all’intervallo di date per il quale esistono dei “trip” validi, il calendario venga riportato comunque al valore estremo (il primo o l’ultimo giorno utile)
 
