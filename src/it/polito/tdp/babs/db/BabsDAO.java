@@ -3,7 +3,6 @@ package it.polito.tdp.babs.db;
 import it.polito.tdp.babs.model.Station;
 import it.polito.tdp.babs.model.Trip;
 
-import java.awt.SecondaryLoop;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

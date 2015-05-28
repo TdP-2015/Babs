@@ -2,7 +2,7 @@ package it.polito.tdp.babs.model;
 
 import java.time.LocalDate;
 
-public class Station implements Comparable {
+public class Station implements Comparable<Station> {
 	
 	private int stationID ;
 	private String name ;
@@ -107,9 +107,9 @@ public class Station implements Comparable {
 	}
 
 	@Override
-	public int compareTo(Object other) {
-		// return this.name.compareTo((Station)other.getName()) ;
-		return ((Station)other).stationID - this.stationID ;
+	public int compareTo(Station other) {
+		// return this.name.compareTo(other.getName()) ;
+		return other.stationID - this.stationID ;
 	}
 
 
